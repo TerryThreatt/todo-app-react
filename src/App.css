@@ -1,5 +1,5 @@
 .app {
-background: linear-gradient(rgb(44, 44, 213), 50% , lightblue );
+background: linear-gradient(rgb(223, 73, 73), 30% , rgb(211, 160, 160) );
 padding: 30px; 
 height: 100vh;
 }
@@ -12,16 +12,17 @@ height: 100vh;
 }
 
 .todo { 
-  background: rgb(241, 241, 241); 
+  background: rgb(241, 239, 239); 
   box-shadow: 1px 1px 1px rgba(0,0,0,0.15); 
   padding: 3px 10px; 
   font-size: 12px; 
   font-family: inherit;
   margin-bottom: 6px; 
   border-radius: 3px; 
-  display: flex; 
+  display: flex;  
   align-items: center; 
   justify-content: space-between;
+  text-align: left;
 }
 
 .todo-title { 
@@ -31,4 +32,8 @@ height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+input { 
+  width: 99%;
 }

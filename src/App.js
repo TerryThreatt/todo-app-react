@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
+
 function Todo({ todo, index, completeTodo, removeTodo }) { 
   return ( 
     <div
